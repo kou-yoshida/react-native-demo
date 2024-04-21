@@ -1,10 +1,9 @@
 import { Slot } from "expo-router";
 import { Text, View } from "react-native";
-export default () => {
+export default function HomeLayout() {
   return (
-    <View>
-      <Text>Layout</Text>
+    <>
       <Slot />
-    </View>
+    </>
   );
-};
+}
